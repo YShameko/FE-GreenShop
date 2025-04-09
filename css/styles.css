@@ -1,0 +1,195 @@
+@import url('reset.css');
+
+@font-face {
+    font-family: "Cera Pro";
+    src: local("Cera Pro Bold"),
+      url("/fonts/Fontspring-DEMO-cerapro-bold.otf") format("otf");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Cera Pro";
+    src: local("Cera Pro Regular"),
+      url("/fonts/Fontspring-DEMO-cerapro-regular.otf") format("otf");
+    font-weight: normal;
+  }
+
+body {
+    font-family: "Cera Pro", sans-serif;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+.fnt-sz0 {
+    font-size: 0px;
+}
+
+.fnt-green {
+    color: #46A358;
+}
+
+.bg-green {
+    background-color: #46A358;
+}
+
+.main-banner {
+    background-color: #F5F5F580;
+    height: 450px;
+    margin-top: 12px;
+}
+
+.main-banner-img {
+    width: 507px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main-banner-text {
+    display: inline-block;
+    vertical-align: top;
+    width: 692px;
+}
+
+.main-banner-text-blck1 {
+    height: 225px;
+    vertical-align: bottom;
+    padding: 68px 0 0 40px;
+}
+
+.main-banner-text-blck2 {
+    height: 225px;
+    padding-left: 40px;
+}
+
+.main-banner-text-welcome {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+}
+
+.main-banner-text-motto {
+    color: #3D3D3D;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+
+.main-banner-text-about {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #727272;
+}
+
+.main-banner-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #46A358;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 44px;
+}
+
+.header {
+    height: 53px;
+    border-bottom: 0.3px solid #46A35880;
+    /* text-align: left; */
+}
+
+.header-logo {
+    width: 150px;
+    height: 35px;
+    text-align: left;
+    /* margin-right: 229px; */
+}
+
+.header-menu {
+    width: 950px;
+    padding-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.header-menu a {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: none;
+    height: 45px;
+}
+
+.header-menu a+a {
+    margin-left: 50px;
+}
+
+.header-menu a:hover {
+    border-bottom: 3px solid #46A358;
+}
+
+.header-menu a.active {
+    font-weight: 700;
+    border-bottom: 3px solid #46A358;
+}
+
+.header-btn {
+    width: 100px;
+    height: 35px;
+    background-color: #46A358;
+    border-radius: 6px;
+    padding: 7px 17px;
+    text-align: right;
+}
+
+.header-btn a {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: none;
+}
+
+.header-btn a:hover,
+.main-banner-btn:hover {
+    cursor: pointer;
+}
+
+
+.header-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.vrt-align-top {
+    vertical-align: top;
+}
+
+.vrt-align-bottom {
+    vertical-align: bottom;
+}
+
+.vrt-align-center {
+    vertical-align: middle;
+}
+
+.inline-block {
+    display: inline-block;
+}
